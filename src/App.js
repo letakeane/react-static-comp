@@ -53,8 +53,6 @@ class App extends Component {
         <Banner />
         <Stories  storiesTitle="Today's Top Stories"
                   stories={this.state.stories} />
-        <Stories  storiesTitle='News'
-                  stories={this.state.stories} />
         <Stories  storiesTitle='Pop Culture'
                   stories={this.state.stories} />
         <Footer />
